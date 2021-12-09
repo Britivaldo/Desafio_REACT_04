@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
-import './styles.css'
 
-function App() {
+function Sobre() {
   return (
     <div className='container' >
         <nav>
@@ -14,7 +13,7 @@ function App() {
       <div className='content'>
 
         <p>
-        Estilize sua estratégia de negócios
+        Somos uma empresa especialista em estilização.
         </p>
 
       </div>
@@ -22,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Sobre;

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
-import './styles.css'
 
-function App() {
+function Contato() {
   return (
     <div className='container' >
         <nav>
@@ -14,12 +13,13 @@ function App() {
       <div className='content'>
 
         <p>
-        Estilize sua estratégia de negócios
+        Procure as nossas redes sociais
         </p>
+        <span>@devone</span>
 
       </div>
     </div>
   );
 }
 
-export default App;
+export default Contato;
